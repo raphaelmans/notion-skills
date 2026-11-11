@@ -1,0 +1,16 @@
+{
+  "source": "notion",
+  "syncedBy": "notion-skills-github-sync",
+  "layoutVersion": 1,
+  "notion": {
+    "env": "prod",
+    "skillsDataSourceId": "735a2614-0fe7-4e1e-8780-ef916d8d6a55",
+    "pluginId": "768e1302-1389-4fdc-8784-b5a299b087e9",
+    "url": "https://www.notion.so/p/768e130213894fdc8784b5a299b087e9",
+    "versionId": "65e4d0276829faea7851da30d4cd53d19f70c1a69753703e498b0a25bf481106"
+  },
+  "plugin": {
+    "slug": "learning",
+    "name": "Learning"
+  }
+}

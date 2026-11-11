@@ -1,0 +1,46 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "Skills Team"
+  },
+  "metadata": {
+    "description": "Skills synced from Notion."
+  },
+  "plugins": [
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Skills synced from Notion."
+    },
+    {
+      "name": "learning",
+      "source": "./plugins/learning",
+      "description": "Skills synced from Notion."
+    },
+    {
+      "name": "life",
+      "source": "./plugins/life",
+      "description": "Skills synced from Notion."
+    },
+    {
+      "name": "notion-skills-updater",
+      "source": "./plugins/notion-skills-updater",
+      "description": "Edit or create skills by updating their source in Notion (write-back via the Notion MCP)."
+    },
+    {
+      "name": "orchestration",
+      "source": "./plugins/orchestration",
+      "description": "Skills synced from Notion."
+    },
+    {
+      "name": "projects",
+      "source": "./plugins/projects",
+      "description": "Skills synced from Notion."
+    },
+    {
+      "name": "second-brain",
+      "source": "./plugins/second-brain",
+      "description": "Skills synced from Notion."
+    }
+  ]
+}

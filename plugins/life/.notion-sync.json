@@ -1,0 +1,16 @@
+{
+  "source": "notion",
+  "syncedBy": "notion-skills-github-sync",
+  "layoutVersion": 1,
+  "notion": {
+    "env": "prod",
+    "skillsDataSourceId": "735a2614-0fe7-4e1e-8780-ef916d8d6a55",
+    "pluginId": "5bd0a267-24f8-486d-8eb5-3ba93fd18a94",
+    "url": "https://www.notion.so/p/5bd0a26724f8486d8eb53ba93fd18a94",
+    "versionId": "b70b4ed38d996f68d4d007ad5067c235e61d0750c8ccd42a78c25467d24177b2"
+  },
+  "plugin": {
+    "slug": "life",
+    "name": "Life"
+  }
+}

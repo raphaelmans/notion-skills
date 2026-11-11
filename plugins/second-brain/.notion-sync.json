@@ -1,0 +1,16 @@
+{
+  "source": "notion",
+  "syncedBy": "notion-skills-github-sync",
+  "layoutVersion": 1,
+  "notion": {
+    "env": "prod",
+    "skillsDataSourceId": "735a2614-0fe7-4e1e-8780-ef916d8d6a55",
+    "pluginId": "21e0af19-27e1-425c-99c5-53500f2b62a2",
+    "url": "https://www.notion.so/p/21e0af1927e1425c99c553500f2b62a2",
+    "versionId": "ac81448d525a5ecfa3a0e178b18144b5b48111f8b3bb2af4af686769be7e9b8e"
+  },
+  "plugin": {
+    "slug": "second-brain",
+    "name": "Second Brain"
+  }
+}

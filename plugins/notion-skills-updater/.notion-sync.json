@@ -1,0 +1,16 @@
+{
+  "source": "notion",
+  "syncedBy": "notion-skills-github-sync",
+  "layoutVersion": 1,
+  "notion": {
+    "env": "prod",
+    "skillsDataSourceId": "735a2614-0fe7-4e1e-8780-ef916d8d6a55",
+    "pluginId": "65c1e939-739c-467f-ae22-d9daaeebd0f7",
+    "url": "https://www.notion.so/p/65c1e939739c467fae22d9daaeebd0f7",
+    "versionId": "a4052b400cf11ffeff22329929426a01deabaaa2f9485c13f4726a4a043ebef2"
+  },
+  "plugin": {
+    "slug": "notion-skills-updater",
+    "name": "notion-skills-updater"
+  }
+}
