@@ -26,7 +26,8 @@ Match the question I'm really asking to one row. Phase follows <mention url="htt
 | "What did users / competitors say?" | <mention url="https://app.notion.com/p/4119439f14868160b2b7c7befc4d5626" /> | Discover | None |
 | "Start a brand-new product from scratch" | <mention url="https://app.notion.com/p/4119439f148681bb8440d6ba446b62ee" /> | Discover → Define | None |
 | "What are we building, for whom, what's in scope?" | <mention url="https://app.notion.com/p/4119439f14868150a2b3e98a203030fd" /> | Define | None (module map as a list) |
-| "How does a user move through it? Journey, flow, onboarding" | <mention url="https://app.notion.com/p/4119439f1486811db821c8afb14e520a" /> | Define | ⚑ No layered level fits user flows yet; use one plain Mermaid flowchart of the steps |
+| "How does a user move through it? Journey, flow, onboarding" | <mention url="https://app.notion.com/p/4119439f1486811db821c8afb14e520a" /> | Define | User flow: one plain Mermaid flowchart (the template's Flow section). No layered levels |
+| "How should this feel / look for the user? Screens, wireframes, onboarding or setup redesign" | <mention url="https://app.notion.com/p/4179439f148681c494d2d6ae50e5d128" /> | Define → Design | User flow (Mermaid flowchart) + lo-fi wireframe storyboard as an HTML artifact, linked from the page. No layered levels |
 | "One new feature or one change to an existing module" | <mention url="https://app.notion.com/p/4119439f148681ca92a5d72dedbe5f33" /> | Define | Only the level the change touches |
 | "What's the shape of the solution? Boundaries, lifecycles" | <mention url="https://app.notion.com/p/4119439f148681c59a2ac66541c3052d" /> | Design | Levels 1 + 2 |
 | "Deep dive on one module" (forward or as-built from code) | <mention url="https://app.notion.com/p/4119439f148681688dffe0d334901c80" /> | Design | Levels 1 + 2 + 3 (full) |
@@ -35,6 +36,8 @@ Match the question I'm really asking to one row. Phase follows <mention url="htt
 | "How does this platform work?" (explain an existing tool) | <mention url="https://app.notion.com/p/40e9439f148681819d4dd78e873cf615" /> | Any | Level 2 only, if it helps |
 | "Something broke, how do I fix it?" | <mention url="https://app.notion.com/p/4149439f148681768d61f90f6e116aca" /> | Launch and run | Level 2 only (how parts connect) |
 | A design idea not proven yet | <mention url="https://app.notion.com/p/4129439f148681c9a7d1fa9c0d575803">Write a design doc page with diagrams</mention> (skill) | Design | As that skill says |
+
+Tie-breakers: one journey as steps → User journey; screens and why they look that way → UX design proposal; what changes in the module and data → Change doc. A UX proposal usually comes first, then feeds the Change doc.
 
 If two rows fit, ask ONE question with the two doc names and a one-line "pick this if…" for each. Don't guess.
 
@@ -53,6 +56,8 @@ If nothing fits, say so, use the nearest template, and log ⚑ "New doc type?" i
 2. Fill it in plain product language first, technical detail after.
 3. For diagrams, load <mention url="https://app.notion.com/p/4149439f148681ca9415d6043a915f51">Layered design diagrams (router)</mention> with ONLY the levels from the table, and use one worked example across the whole doc.
 4. Unknown facts go under Open questions with ⚑. Never guess.
+5. Size the "why" to the bet: a new product or anything over about two weeks or with real spend gets a written benefits statement (one-pager, or the Change doc's benefits table); smaller work gets problem, why now and one goal; a story gets its "so that…".
+6. **No repo artifacts.** If the doc is written from a codebase (brownfield PRD, as-built module spec, resync, or a new module built on existing code), read the code but write only what it does, in product words. Link the repo once in the header. Never paste file or folder paths, class, function or component names, table or column names, routes, SQL, schemas, commit hashes or code. Only the Tech spec may carry low-level detail.
 
 ## Output
 
@@ -73,4 +78,4 @@ One Notion page from the chosen template, in the place from Step 2. Reply with: 
 
 ## Handoff
 
-Project docs → Project manager. Blueprints → stays with the Chief of staff until I promote it. Generic learnings → Second Brain operator.
+Business cases and priorities → CPO. Product docs → Product manager. HLDs, tech specs and ADRs → CTO. UX proposals and user flows → Head of design. Delivery and milestones → Project manager. Blueprints → stays with the Chief of staff until I promote it. Generic learnings → Second Brain operator.
