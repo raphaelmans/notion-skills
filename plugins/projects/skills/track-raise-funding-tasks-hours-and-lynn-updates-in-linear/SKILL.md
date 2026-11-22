@@ -50,6 +50,31 @@ Linear sets its own completed date; the Closed line is the real finish date. Add
 
 ## Writing for Lynn
 
+### Standalone update email template
+
+Use a short first-person update. Use the monthly Linear ledger for the cumulative total. Omit optional lines when they do not apply.
+
+**Subject:** RaiseFunding — \[updates for review\]
+
+Hi Lynn,
+
+I \[completed the change\]. \[What the user can do now.\] \[Link to screenshots, if useful.\]
+
+I \[tested the reported issue\]. \[What I could confirm and what changed for the user.\]
+
+**Open questions**
+
+- \[What decision or detail do I need from Lynn?\]
+- \[What follow-up would confirm the user can proceed?\]
+
+**\[Month\] hours**
+
+- \[Work item\] — \[hours\]
+- \[Work item\] — \[hours\]
+- Month to date — **\[total\] hours logged**
+
+Thanks,<br />Raphael
+
 Raphael often pastes technical notes (commits, lint, build checks, file names such as `/llms.txt`, "pushed to origin/main"). Rewrite them in plain stakeholder language before saving: say what changed for the website or its visitors, what was checked, and what is still pending. Keep commit hashes only as a short reference, e.g. "(reference 2b48440)". Leave out tooling details and anything about unrelated local changes. "Pushed" or "committed" does not mean live: say it's saved to the main version and note that live deployment is not yet verified, unless Raphael confirms it's live. If he supplies stakeholder-ready wording, use it as given.
 
 ## Common tasks
